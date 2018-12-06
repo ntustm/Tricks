@@ -12,3 +12,4 @@
 
 #endif
 
+#define CTW_ASSERT(EXP) if(EXP){;} else { cerr<<__FILE__<<":"<<__LINE__<<#EXP<<" no satisfied. "<<endl; exit(-1);}
